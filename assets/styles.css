@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html,
+  body {
+    font-family: 'Poppins', Helvetica, sans-serif;
+    background-color: rgb(43, 41, 41);
+  }
+  
+  #app {
+    width: 450px;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    padding: 4em;
+    box-sizing: border-box;
+    word-wrap: normal;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 1.5em;
+  }
+  
+  h1 {
+    color: white;
+    font-weight: normal;
+  }
+
+  .title {
+    padding-bottom: 2rem;
+  }
+
+  h3 {
+    color: white;
+    margin-bottom: 1.5rem;
+    font-weight: normal;
+  }
+
+  img {
+    width: 60%;
+    height: 100%;
+    border-radius: 50%;
+    border: 5px #333 solid;
+    margin-bottom: 1rem;
+  }
+  
+  .male {
+    border-color: rgb(54, 97, 216);
+    background-color: rgb(54, 97, 216);
+  }
+  
+  .female {
+    border-color: palevioletred;
+    background-color: palevioletred;;
+    color: #333;
+  }
+  
+  button {
+    cursor: pointer;
+    display: inline-block;
+    background: #333;
+    border-radius: 1em;
+    color: white;
+    font-size: 18px;
+    border: 0;
+    padding: 1rem 1.5rem;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button:hover {
+    transform: scale(0.98);
+  }
+  
